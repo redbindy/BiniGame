@@ -141,8 +141,7 @@
     <ResourceCompile Include="BiniGame.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="BiniGame.ico" />
-    <Image Include="small.ico" />
+    <Image Include="Data\Image\WindowIcon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
