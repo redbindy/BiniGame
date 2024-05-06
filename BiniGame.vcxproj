@@ -127,15 +127,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AttackableObject.h" />
+    <ClInclude Include="AudioController.h" />
     <ClInclude Include="BiniGame.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="ComHelper.h" />
+    <ClInclude Include="DrawHelper.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="GameManager.h" />
+    <ClInclude Include="ICollisionListener.h" />
+    <ClInclude Include="IMovable.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Target.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AttackableObject.cpp" />
+    <ClCompile Include="AudioController.cpp" />
     <ClCompile Include="BiniGame.cpp" />
+    <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Target.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="BiniGame.rc" />

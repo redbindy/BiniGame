@@ -15,6 +15,10 @@
 #include <vector>
 #include <cmath>
 
+#include "ComHelper.h"
+#include "Player.h"
+#include "Target.h"
+
 namespace GameManager
 {
 	void Initialize(const HWND hWnd);
