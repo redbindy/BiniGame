@@ -135,7 +135,6 @@
     <ClInclude Include="DrawHelper.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="GameManager.h" />
-    <ClInclude Include="ICollisionListener.h" />
     <ClInclude Include="IMovable.h" />
     <ClInclude Include="Object.h" />
     <ClInclude Include="Player.h" />
